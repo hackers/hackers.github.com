@@ -1,9 +1,13 @@
-<DOCTYPE html>
-<html>
-    <head>
-        <title>hackers.github.com</title>
-    </head>
-    <body>
-        <p>hackers.github.com</p>
-    </body>
-</html>
+---
+layout: default
+title: HACK - HAGO ACK
+---
+
+<section>
+    <h1>資料</h1>
+    <ul class='posts'>
+        {% for post in site.posts %}
+        <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+    </ul>
+</section>
