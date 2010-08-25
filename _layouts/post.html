@@ -2,8 +2,10 @@
 layout: default
 ---
 
-<section>
+<section id="post">
     <article>
     {{ content }}
     </article>
+
+    <p>Speak by - {{ page.speaker }} | Published date - {{ page.date | date_to_string }}</p>
 </section>

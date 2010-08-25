@@ -1,0 +1,35 @@
+header, footer, section, article {
+    display: block;
+}
+
+html {
+    background: none repeat scroll 0 0 #ebebeb;
+}
+
+body {
+    margin-right: auto;
+    margin-left: auto;
+    width: 980px;
+    color: #666;
+}
+
+header h1 a {
+    font-size: 240%;
+    font-family: serif;
+    text-decoration: none;
+}
+section {
+    font-size: 1.1em;
+}
+
+ul li {
+    list-style: none;
+    margin: 1px;
+}
+li span {
+    font-family: monospace;
+}
+
+footer {
+    text-align: right;
+}

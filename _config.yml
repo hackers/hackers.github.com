@@ -1,2 +1,8 @@
 markdown: rdiscount
 pygments: true
+
+url: http://hackers.github.com
+domain: hackers.github.com
+feed: http://hackesr.github.com/atom.xml
+title: HACK - {{ HAGO ACK }}
+mail: hackers-ml@googlegroups.com

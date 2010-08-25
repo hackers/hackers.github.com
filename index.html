@@ -1,13 +1,20 @@
 ---
 layout: default
-title: HACK - HAGO ACK
+title: HACK - {{ HAGO ACK }}
 ---
 
 <section>
-    <h1>資料</h1>
+    <h2>資料</h2>
     <ul class='posts'>
         {% for post in site.posts %}
         <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
+    </ul>
+</section>
+
+<section>
+    <h2>社外発表</h2>
+    <ul class='posts'>
+        <li><span>12 Jun 2010</span> &raquo; <a href="http://www.java-kuche.org/modules/news/article.php?storyid=32">Java Kueche 第10回勉強会</a></li>
     </ul>
 </section>
