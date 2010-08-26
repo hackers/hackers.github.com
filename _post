@@ -1,0 +1,37 @@
+#!/usr/bin/env ruby
+
+=begin
+
+Script to kickstart a new jekyll post.
+tomohiro.t@gmail.com
+
+Usage: $ ./new_post.rb
+
+=end
+
+require 'date'
+
+def get_input(message)
+  print message
+  gets.chomp.strip
+end
+
+title     = get_input 'Post Title: '
+speaker   = get_input 'Speaker Name: '
+extension = 'markdown'
+today     = Date.today
+path      = "_posts/#{today}-#{title}.#{extension}"
+header    = <<HEADER
+---
+layout: post
+title: #{title}
+speaker: #{speaker}
+---
+
+{{ page.title }}
+================================================================================
+
+HEADER
+
+File.open(path, 'w') { |f| f.write(header) }
+system("$EDITOR #{path}")
