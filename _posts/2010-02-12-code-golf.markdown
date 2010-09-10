@@ -10,8 +10,6 @@ speaker: Tomohiro TAIRA
 ロト6 の番号をランダムに選択するプログラムをあらゆる言語で実装
 --------------------------------------------------------------------------------
 
-![ロゴ](/images/code-golf-logo.png)
-
 ### 目次 <a name="index"></a>
 
 1. [Code Golf とは](#how_to_code_golf)
@@ -206,6 +204,3 @@ via [ロト6 - Wikipedia](http://ja.wikipedia.org/wiki/%E3%83%AD%E3%83%886)
 - [Hello worldプログラムの一覧](http://j.mp/9yBVq)
 
 [目次へ戻る](#index)
-
-
-<div><%= @disqus %></div>
