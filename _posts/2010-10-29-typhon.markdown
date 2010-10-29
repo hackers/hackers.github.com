@@ -1,0 +1,17 @@
+---
+layout: post
+title: Typhon
+speaker: Mitsuhide Neho
+---
+
+# 暴風型言語 Typhon
+[Esoteric](http://mitsuhide.github.com/esoteric/index.html "Esoteric")
+[Typhon](http://mitsuhide.github.com/typhon/index.html "Typhon")
+
+## Rubyの勉強したいけど何を作ればいいのかわからない・・・そんなあなたへ
+### これひとつで言語処理系の実装方法とRubyがわかるよ！
+
+## PythonのアナグラムなのにRubyって・・・
+はい、ごめんなさい、いつの日かPythonに移植します。
+
+## オレオレ言語やユーザテスト用のスクリプト開発に役立つかもね
